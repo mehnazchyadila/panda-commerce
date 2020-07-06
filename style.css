@@ -2,6 +2,12 @@
 .container{
     margin-bottom: 100px;
 }
+.catagorise h1 {
+    color: #fff;
+}
+.catagorise img{
+    width: 100px;
+}
 .lightpink-bg{
     background-color: #fceae8;
     border-radius: 10px;
@@ -19,4 +25,32 @@
     border-radius:8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.cat1{
+    background-image: linear-gradient(to right,orange ,tomato);
+}
+.cat2{
+    background-image: linear-gradient(to right,#FF589B , #ff136f);
+}
+.cat3{
+    background-image: linear-gradient(to right,rgb(37, 181, 224), blue);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    box-shadow:5px 4px 10px lightgray ;
+    border-radius: 5px;
+
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
